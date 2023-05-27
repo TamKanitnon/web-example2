@@ -23,6 +23,7 @@
 }
 .header img {
     margin-left: 10px;
+    /* width: 80px; */
 }
 .header ul {
     /* border: 1px solid black; */
@@ -134,12 +135,18 @@
     padding: 60px 0;
 }
 .img-grid {
+    /* border: 1px solid black; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
 }
+.img-grid img {
+    /* border: 1px solid black;
+    width: 265px;
+    height: 200px; */
+}
 .img-grid img:hover {
-    transform: scale(1.15);
+    transform: scale(1.25);
     transition: 0.4s;
 }
 .text h2 {
